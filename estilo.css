@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fondo.jpg);
+}
+#cuadro {
+    
+    width: fit-content;
+    height: fit-content;
+    float: inherit;
+    margin: auto;
+    
+}
+#ciudad {
+    font-size: medium;
+    color: brown;
+    font-weight: bold;
+}
+#temp {
+    font-size: xx-large;
+    color: black;
+    font-weight: bolder;
+    animation: blinker 1s infinite;
+    
+}
+#adicional {
+    font-weight: bold;
+    color: black
+}
+
+#info {
+    font-weight: bold;
+    color: blue
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+
+img { float: left;
+      width: 50px;
+    height: 50px;}
+@keyframes blinker {
+    50% {
+    opacity: 0;
+    }
+    }
+
+
